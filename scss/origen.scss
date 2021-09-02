@@ -1,0 +1,21 @@
+@import "estilosPrincipales";
+@import "Grids";
+@import "Media";
+@import "Header";
+.prueba {
+background-color: rgb(201, 74, 74);
+}
+.prueba__negra {
+    color: black;
+}
+footer {
+    background-color:rgb(33, 37, 41);
+
+}
+$ashe: 50px;
+.ashe {
+    padding-left: $ashe*1.5;
+}
+.ashe2 {
+    padding-left: $ashe/2;
+}

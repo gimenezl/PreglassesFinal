@@ -1,0 +1,48 @@
+/* RESET DE CSS */
+* {
+    margin: 0;
+    padding: 0;
+    }
+    html {
+        font-family: 'Noto Sans JP', sans-serif;
+    }
+    
+    body {
+    background-color: antiquewhite;
+    
+    }
+    
+    .inline {
+        display: inline;
+    }
+    .margen {
+    
+        margin: 20px;
+    }
+    .borde {
+    
+        border: inset 2px black;
+    }
+    .headerFlex {
+        display: flex;
+        flex-flow: wrap column;
+    }
+    .menuFlex {
+    
+        display: flex;
+        flex-flow: wrap column;
+        justify-content: flex-start;
+    }
+    .agrandar {
+    transition: all 2s;
+    }
+    .agrandar:hover {
+        width: 300px;
+        height: 200px;
+    }
+    .mover {
+        transform: translate(1fr, 0px);
+    }
+    th { 
+        padding: 10px;
+    }

@@ -1,0 +1,97 @@
+/* RESET DE CSS */
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-family: 'Noto Sans JP', sans-serif; }
+
+body {
+  background-color: antiquewhite; }
+
+.inline {
+  display: inline; }
+
+.margen {
+  margin: 20px; }
+
+.borde {
+  border: inset 2px black; }
+
+.headerFlex {
+  display: flex;
+  flex-flow: wrap column; }
+
+.menuFlex {
+  display: flex;
+  flex-flow: wrap column;
+  justify-content: flex-start; }
+
+.agrandar {
+  transition: all 2s; }
+
+.agrandar:hover {
+  width: 300px;
+  height: 200px; }
+
+.mover {
+  transform: translate(1fr, 0px); }
+
+th {
+  padding: 10px; }
+
+.Grid1 {
+  display: grid;
+  grid-template-columns: 600px 400px; }
+
+.Grid2 {
+  display: grid;
+  grid-template-columns: 300px; }
+
+.Grid3 {
+  display: grid;
+  grid-template-columns: 1000px; }
+
+.Grid4 {
+  display: grid;
+  grid-template-columns: 600px;
+  margin: 40px; }
+
+.Grid5 {
+  display: inline; }
+
+@media only screen and (min-width: 320px) {
+  .Grid1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr; }
+  .Grid2 {
+    display: grid;
+    grid-template-columns: 300px; } }
+
+header {
+  background: #CCA788;
+  background: -webkit-linear-gradient(top left, #CCA788, #FCD397);
+  background: -moz-linear-gradient(top left, #CCA788, #FCD397);
+  background: linear-gradient(to bottom right, #CCA788, #FCD397); }
+
+header {
+  width: 100%;
+  height: 200px;
+  margin: 10px;
+  padding: 3px;
+  background-color: #ecdec9; }
+
+.prueba {
+  background-color: #c94a4a; }
+
+.prueba__negra {
+  color: black; }
+
+footer {
+  background-color: #212529; }
+
+.ashe {
+  padding-left: 75px; }
+
+.ashe2 {
+  padding-left: 25px; }
